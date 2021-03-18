@@ -6,7 +6,7 @@ baseClass._destroy = function() {
     let ele = this.element,
         opts = this._opts,
         content = this._content;
-    this._closeModalDlg(null, undefined, true);
+    this._closeModalDlg(null, undefined, false);
     opts.handleFocusNavigation && ZC.FocusHandler.destroy(ele);
     !this.isCE && $(opts.appendTo || 'body').append(ele.removeClass('zdialog zdialog--minimized zdialog--maximized')); // No I18N
     let over = this._overlay;
