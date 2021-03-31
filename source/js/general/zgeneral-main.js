@@ -7,7 +7,7 @@ let needToInit = true,
 sourceDiv.appendChild(sourceText);
 let useWebComponentsSelector = window.ZComponentsConfig && window.ZComponentsConfig.useWebComponentsSelector;
 let ZComponents = {
-    pluginPrefix: 'z', // No I18N
+    pluginPrefix: 'zs', // No I18N
     changeSet: '{{versionChangeSet}}', // No I18N
     isRTL: false,
     selector: 'data-ctype', // No I18N
