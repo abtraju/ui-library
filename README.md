@@ -1,1 +1,1 @@
-# user-interface
+# user-interface detail
